@@ -65,62 +65,61 @@ DNS, NameServer, EPP(Extensible Provisioning Protocol), WHOIS, RDAP(Registration
 - DNSTap: [GitHub](https://github.com/dnstap/dnstap) - DNS logging format by Robert Edmonds
 - RIPE Atlas: [Website](https://atlas.ripe.net/) - Global DNS measurement network by RIPE NCC
 
-
 # DNS Protocol RFCs and Standards Track Documents
 
 ## Core DNS Protocol RFCs
-- RFC 1034: Domain Concepts and Facilities (1987) - Standard | P. Mockapetris
-- RFC 1035: Domain Implementation and Specification (1987) - Standard | P. Mockapetris
-- RFC 2181: Clarifications to the DNS Specification (1997) - Standard | R. Elz, R. Bush
-- RFC 2308: Negative Caching of DNS Queries (1998) - Standard | M. Andrews
-- RFC 3596: DNS Extensions to Support IP Version 6 (2003) - Standard | S. Thomson, C. Huitema, V. Ksinant, M. Souissi
+- [RFC 1034](https://datatracker.ietf.org/doc/rfc1034/): Domain Concepts and Facilities (1987) - Standard | P. Mockapetris
+- [RFC 1035](https://datatracker.ietf.org/doc/rfc1035/): Domain Implementation and Specification (1987) - Standard | P. Mockapetris
+- [RFC 2181](https://datatracker.ietf.org/doc/rfc2181/): Clarifications to the DNS Specification (1997) - Standard | R. Elz, R. Bush
+- [RFC 2308](https://datatracker.ietf.org/doc/rfc2308/): Negative Caching of DNS Queries (1998) - Standard | M. Andrews
+- [RFC 3596](https://datatracker.ietf.org/doc/rfc3596/): DNS Extensions to Support IP Version 6 (2003) - Standard | S. Thomson, C. Huitema, V. Ksinant, M. Souissi
 
 ## DNS Security Extensions (DNSSEC)
-- RFC 4033: DNS Security Introduction and Requirements (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- RFC 4034: Resource Records for the DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- RFC 4035: Protocol Modifications for DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- RFC 5155: DNS Security (DNSSEC) Hashed Authenticated Denial of Existence (2008) - Standard | B. Laurie, G. Sisson, R. Arends, D. Blacka
-- RFC 6840: Clarifications and Implementation Notes for DNS Security (2013) - Standard | S. Weiler, D. Blacka
+- [RFC 4033](https://datatracker.ietf.org/doc/rfc4033/): DNS Security Introduction and Requirements (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
+- [RFC 4034](https://datatracker.ietf.org/doc/rfc4034/): Resource Records for the DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
+- [RFC 4035](https://datatracker.ietf.org/doc/rfc4035/): Protocol Modifications for DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
+- [RFC 5155](https://datatracker.ietf.org/doc/rfc5155/): DNS Security (DNSSEC) Hashed Authenticated Denial of Existence (2008) - Standard | B. Laurie, G. Sisson, R. Arends, D. Blacka
+- [RFC 6840](https://datatracker.ietf.org/doc/rfc6840/): Clarifications and Implementation Notes for DNS Security (2013) - Standard | S. Weiler, D. Blacka
 
 ## DNS Transport and Operations
-- RFC 2671: Extension Mechanisms for DNS (EDNS0) (1999) - Standard | P. Vixie
-- RFC 5936: DNS Zone Transfer Protocol (AXFR) (2010) - Standard | E. Lewis, A. Hoenes
-- RFC 7766: DNS Transport over TCP - Implementation Requirements (2016) - Standard | J. Dickinson, S. Dickinson, R. Bellis, A. Mankin, D. Wessels
-- RFC 8484: DNS Queries over HTTPS (DoH) (2018) - Standard | P. Hoffman, P. McManus
-- RFC 7858: Specification for DNS over Transport Layer Security (TLS) (2016) - Standard | Z. Hu, L. Zhu, J. Heidemann, A. Mankin, D. Wessels, P. Hoffman
+- [RFC 2671](https://datatracker.ietf.org/doc/rfc2671/): Extension Mechanisms for DNS (EDNS0) (1999) - Standard | P. Vixie
+- [RFC 5936](https://datatracker.ietf.org/doc/rfc5936/): DNS Zone Transfer Protocol (AXFR) (2010) - Standard | E. Lewis, A. Hoenes
+- [RFC 7766](https://datatracker.ietf.org/doc/rfc7766/): DNS Transport over TCP - Implementation Requirements (2016) - Standard | J. Dickinson, S. Dickinson, R. Bellis, A. Mankin, D. Wessels
+- [RFC 8484](https://datatracker.ietf.org/doc/rfc8484/): DNS Queries over HTTPS (DoH) (2018) - Standard | P. Hoffman, P. McManus
+- [RFC 7858](https://datatracker.ietf.org/doc/rfc7858/): Specification for DNS over Transport Layer Security (TLS) (2016) - Standard | Z. Hu, L. Zhu, J. Heidemann, A. Mankin, D. Wessels, P. Hoffman
 
 ## Dynamic Updates and Notifications
-- RFC 2136: Dynamic Updates in the Domain Name System (DNS UPDATE) (1997) - Standard | P. Vixie, S. Thomson, Y. Rekhter, J. Bound
-- RFC 1996: A Mechanism for Prompt Notification of Zone Changes (DNS NOTIFY) (1996) - Standard | P. Vixie
-- RFC 3007: Secure Domain Name System (DNS) Dynamic Update (2000) - Standard | B. Wellington
+- [RFC 2136](https://datatracker.ietf.org/doc/rfc2136/): Dynamic Updates in the Domain Name System (DNS UPDATE) (1997) - Standard | P. Vixie, S. Thomson, Y. Rekhter, J. Bound
+- [RFC 1996](https://datatracker.ietf.org/doc/rfc1996/): A Mechanism for Prompt Notification of Zone Changes (DNS NOTIFY) (1996) - Standard | P. Vixie
+- [RFC 3007](https://datatracker.ietf.org/doc/rfc3007/): Secure Domain Name System (DNS) Dynamic Update (2000) - Standard | B. Wellington
 
 ## DNS Resource Records
-- RFC 3597: Handling of Unknown DNS Resource Record (RR) Types (2003) - Standard | A. Gustafsson
-- RFC 4592: The Role of Wildcards in the Domain Name System (2006) - Standard | E. Lewis
-- RFC 6891: Extension Mechanisms for DNS (EDNS(0)) (2013) - Standard | J. Damas, M. Graff, P. Vixie
+- [RFC 3597](https://datatracker.ietf.org/doc/rfc3597/): Handling of Unknown DNS Resource Record (RR) Types (2003) - Standard | A. Gustafsson
+- [RFC 4592](https://datatracker.ietf.org/doc/rfc4592/): The Role of Wildcards in the Domain Name System (2006) - Standard | E. Lewis
+- [RFC 6891](https://datatracker.ietf.org/doc/rfc6891/): Extension Mechanisms for DNS (EDNS(0)) (2013) - Standard | J. Damas, M. Graff, P. Vixie
 
 ## Internationalized Domain Names (IDN)
-- RFC 5890: Internationalized Domain Names for Applications (IDNA): Definitions and Document Framework (2010) - Standard | J. Klensin
-- RFC 5891: Internationalized Domain Names in Applications (IDNA): Protocol (2010) - Standard | J. Klensin
-- RFC 5892: The Unicode Code Points and Internationalized Domain Names for Applications (IDNA) (2010) - Standard | P. Faltstrom
+- [RFC 5890](https://datatracker.ietf.org/doc/rfc5890/): Internationalized Domain Names for Applications (IDNA): Definitions and Document Framework (2010) - Standard | J. Klensin
+- [RFC 5891](https://datatracker.ietf.org/doc/rfc5891/): Internationalized Domain Names in Applications (IDNA): Protocol (2010) - Standard | J. Klensin
+- [RFC 5892](https://datatracker.ietf.org/doc/rfc5892/): The Unicode Code Points and IDNA (2010) - Standard | P. Faltstrom
 
 ## DNS Operational Standards
-- RFC 2870: Root Name Server Operational Requirements (2000) - Best Current Practice | R. Bush, D. Karrenberg, M. Kosters, R. Plzak
-- RFC 6781: DNSSEC Operational Practices (2012) - Best Current Practice | O. Kolkman, W. Mekking, R. Gieben
-- RFC 7720: DNS Root Name Service Protocol and Deployment Requirements (2015) - Best Current Practice | M. Blanchet, L-J. Liman
+- [RFC 2870](https://datatracker.ietf.org/doc/rfc2870/): Root Name Server Operational Requirements (2000) - Best Current Practice | R. Bush, D. Karrenberg, M. Kosters, R. Plzak
+- [RFC 6781](https://datatracker.ietf.org/doc/rfc6781/): DNSSEC Operational Practices (2012) - Best Current Practice | O. Kolkman, W. Mekking, R. Gieben
+- [RFC 7720](https://datatracker.ietf.org/doc/rfc7720/): DNS Root Name Service Protocol and Deployment Requirements (2015) - Best Current Practice | M. Blanchet, L-J. Liman
 
 ## Modern DNS Extensions and Features
-- RFC 8499: DNS Terminology (2019) - Informational | P. Hoffman, K. Sullivan, J. Klensin
-- RFC 7871: Client Subnet in DNS Queries (2016) - Informational | C. Contavalli, W. van der Gaast, D. Lawrence, W. Kumari
-- RFC 8767: Serving Stale Data to Improve DNS Resiliency (2020) - Standard | D. Lawrence, W. Kumari, P. Sood
+- [RFC 8499](https://datatracker.ietf.org/doc/rfc8499/): DNS Terminology (2019) - Informational | P. Hoffman, K. Sullivan, J. Klensin
+- [RFC 7871](https://datatracker.ietf.org/doc/rfc7871/): Client Subnet in DNS Queries (2016) - Informational | C. Contavalli, W. van der Gaast, D. Lawrence, W. Kumari
+- [RFC 8767](https://datatracker.ietf.org/doc/rfc8767/): Serving Stale Data to Improve DNS Resiliency (2020) - Standard | D. Lawrence, W. Kumari, P. Sood
 
 ## Privacy and Security
-- RFC 8932: Recommendations for DNS Privacy Service Operators (2020) - Best Current Practice | S. Dickinson, B. Overeinder, R. van Rijswijk-Deij, A. Mankin
-- RFC 9076: DNS Privacy Considerations (2021) - Informational | T. Wicinski
-- RFC 8198: Aggressive Use of DNSSEC-Validated Cache (2017) - Standard | K. Fujiwara, A. Kato, W. Kumari
+- [RFC 8932](https://datatracker.ietf.org/doc/rfc8932/): Recommendations for DNS Privacy Service Operators (2020) - Best Current Practice | S. Dickinson, B. Overeinder, R. van Rijswijk-Deij, A. Mankin
+- [RFC 9076](https://datatracker.ietf.org/doc/rfc9076/): DNS Privacy Considerations (2021) - Informational | T. Wicinski
+- [RFC 8198](https://datatracker.ietf.org/doc/rfc8198/): Aggressive Use of DNSSEC-Validated Cache (2017) - Standard | K. Fujiwara, A. Kato, W. Kumari
 
 ## Notes:
+- All links point to IETF datatracker which provides additional metadata and implementation status
 - Track types include: Standard Track, Best Current Practice (BCP), Informational, and Experimental
 - Dates indicate publication year
 - Authors listed are primary contributors
-- Some RFCs have been obsoleted by newer versions; this list shows the current active versions
