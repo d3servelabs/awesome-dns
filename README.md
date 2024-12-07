@@ -129,3 +129,74 @@ DNS, NameServer, EPP(Extensible Provisioning Protocol), WHOIS, RDAP(Registration
 - Zonemaster
   - [Source](https://github.com/zonemaster/zonemaster)
   - Maintainer: [IIS (Internet Foundation in Sweden)](https://internetstiftelsen.se/) and [AFNIC](https://www.afnic.fr/)
+ 
+## Debugging and Analysis Tools
+
+- **[DNSViz](https://dnsviz.net)**  
+  A comprehensive DNS analysis and visualization tool to troubleshoot DNS configurations, focusing on DNSSEC validation.  
+  - **Maintainer**: [Casey Deccio](https://github.com/deccio)  
+  - **Source Code**: [GitHub](https://github.com/dnsviz/dnsviz)
+
+- **[dnstracer](https://packages.debian.org/sid/dnstracer)**  
+  A command-line tool to trace the path to the authoritative DNS server for a given domain name.  
+  - **Maintainer**: Debian Community  
+  - **Source Code**: [SourceForge](http://www.mavetju.org/unix/dnstracer.php)
+
+- **[dnsping](https://github.com/klepner/dnsping)**  
+  A simple utility to measure DNS latency and response times using `ping`-like behavior for DNS.  
+  - **Maintainer**: [klepner](https://github.com/klepner)  
+  - **Source Code**: [GitHub](https://github.com/klepner/dnsping)
+
+- **[DNSCheck](https://dnscheck.iis.se)**  
+  A web-based tool to test the delegation of a domain, including DNSSEC validation and operational checks.  
+  - **Maintainer**: IIS.se (Internetstiftelsen i Sverige)  
+  - **Source Code**: Private
+
+- **[ZoneMaster](https://zonemaster.net)**  
+  A tool for testing and validating DNS zones to detect misconfigurations and operational issues, including DNSSEC checks.  
+  - **Maintainer**: [zonemaster](https://github.com/zonemaster)  
+  - **Source Code**: [GitHub](https://github.com/zonemaster)
+
+## DNS Libraries
+
+- **[dnspython](https://www.dnspython.org)**  
+  A Python library for working with DNS. It provides tools to perform DNS queries, updates, and DNSSEC validation.  
+  - **Maintainer**: [dnspython](https://github.com/rthalley)  
+  - **Source Code**: [GitHub](https://github.com/rthalley/dnspython)
+
+- **[go-dns](https://github.com/miekg/dns)**  
+  A DNS library for Go, supporting all DNS resource records, queries, and DNSSEC validation.  
+  - **Maintainer**: [Miek Gieben](https://github.com/miekg)  
+  - **Source Code**: [GitHub](https://github.com/miekg/dns)
+
+- **[Node.js DNS](https://nodejs.org/api/dns.html)**  
+  A DNS module included with Node.js, providing query and resolve functionality for DNS records.  
+  - **Maintainer**: [Node.js Foundation](https://github.com/nodejs)  
+  - **Source Code**: [GitHub](https://github.com/nodejs/node)
+
+- **[ldns](https://www.nlnetlabs.nl/projects/ldns/)**  
+  A C library for DNS and DNSSEC, designed for querying and manipulation of DNS zones.  
+  - **Maintainer**: [NLnet Labs](https://github.com/NLnetLabs)  
+  - **Source Code**: [GitHub](https://github.com/NLnetLabs/ldns)
+
+- **[libunbound](https://nlnetlabs.nl/projects/unbound/about/)**  
+  A DNS resolver library extracted from Unbound, useful for embedding DNS functionality into applications.  
+  - **Maintainer**: [NLnet Labs](https://github.com/NLnetLabs)  
+  - **Source Code**: [GitHub](https://github.com/NLnetLabs/unbound)
+
+## Network Troubleshooting Tools with DNS Features
+
+- **[Wireshark](https://www.wireshark.org)**  
+  A network protocol analyzer that includes DNS decoding and debugging features.  
+  - **Maintainer**: Wireshark Foundation  
+  - **Source Code**: [GitLab](https://gitlab.com/wireshark/wireshark)
+
+- **[Dig](https://linux.die.net/man/1/dig)**  
+  A command-line utility to perform DNS lookups. It supports DNSSEC and advanced query options.  
+  - **Maintainer**: ISC (BIND Project)  
+  - **Source Code**: Part of [BIND](https://gitlab.isc.org/isc-projects/bind9)
+
+- **[Drill](https://nlnetlabs.nl/projects/ldns/)**  
+  A DNS query tool similar to `dig`, included with the `ldns` library, designed to simplify DNSSEC usage.  
+  - **Maintainer**: [NLnet Labs](https://github.com/NLnetLabs)  
+  - **Source Code**: [GitHub](https://github.com/NLnetLabs/ldns)
