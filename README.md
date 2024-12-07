@@ -1,125 +1,136 @@
-# README
-
-## Keywords
-DNS, NameServer, EPP(Extensible Provisioning Protocol), WHOIS, RDAP(Registration Data Access Protocol)
+# Awesome-SDN: Complete DNS, EPP, WHOIS & RDAP Tools List
 
 ## NameServers
-- BIND9: [GitLab](https://gitlab.isc.org/isc-projects/bind9) | [Github](https://github.com/isc-projects/bind9) - Complete DNS protocol implementation by [ISC](https://www.isc.org/)
-- CoreDNS: [GitHub](https://github.com/coredns/coredns) - Golang NameServer implementation by [CNCF](https://www.cncf.io/)
-- PowerDNS: [GitHub](https://github.com/PowerDNS/pdns) - Feature-rich DNS server by [PowerDNS.COM BV](https://www.powerdns.com/)
-- Knot DNS: [Website](https://www.knot-dns.cz) | [GitLab](https://gitlab.nic.cz/knot/knot-dns) - High-performance authoritative DNS server by [CZ.NIC](https://gitlab.nic.cz/knot/knot-dns)
-- Unbound: [Website](https://www.nlnetlabs.nl/projects/unbound/about/) | [GitHub](https://github.com/NLnetLabs/unbound) - Validating, recursive DNS resolver by [NLnet Labs](https://github.com/NLnetLabs)
-- TRust-DNS: [GitHub](https://github.com/bluejekyll/trust-dns) - Rust DNS implementation by Benjamin Fry
-- djbdns: [Website](https://cr.yp.to/djbdns.html) - DNS tools collection by D.J. Bernstein
-- dnsmasq: [Website](http://www.thekelleys.org.uk/dnsmasq/doc.html) | [Source](http://thekelleys.org.uk/git/dnsmasq.git) - Lightweight DNS/DHCP server by Simon Kelley
-- MaraDNS: [Website](https://maradns.samiam.org) | [GitHub](https://github.com/samboy/MaraDNS) - Small, secure DNS server by Sam Trenholme
+- BIND9 | [gitlab.isc.org/isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9) | Complete DNS protocol implementation | ISC | 1987-2024
+- CoreDNS | [github.com/coredns/coredns](https://github.com/coredns/coredns) | Production-grade DNS server with plugins | CNCF | 2016-2024
+- PowerDNS | [github.com/PowerDNS/pdns](https://github.com/PowerDNS/pdns) | Feature-rich DNS server | PowerDNS.COM BV | 2002-2024
+- Knot DNS | [gitlab.nic.cz/knot/knot-dns](https://gitlab.nic.cz/knot/knot-dns) | High-performance authoritative DNS server | CZ.NIC | 2011-2024
+- Unbound | [github.com/NLnetLabs/unbound](https://github.com/NLnetLabs/unbound) | Validating, recursive DNS resolver | NLnet Labs | 2007-2024
+- TRust-DNS | [github.com/bluejekyll/trust-dns](https://github.com/bluejekyll/trust-dns) | Rust DNS implementation | Benjamin Fry | 2015-2024
+- hickory-dns | [github.com/hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns) | Fork of Trust-DNS with modern features | Benjamin Fry | 2023-2024
+- djbdns | [cr.yp.to/djbdns.html](https://cr.yp.to/djbdns.html) | DNS tools collection | D.J. Bernstein | 2001-2002
+- dnsmasq | [thekelleys.org.uk/dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) | Lightweight DNS/DHCP server | Simon Kelley | 2002-2024
+- MaraDNS | [github.com/samboy/MaraDNS](https://github.com/samboy/MaraDNS) | Small, secure DNS server | Sam Trenholme | 2002-2024
 
 ## EPP Tools
-- CentralNic PHP-EPP: [GitHub](https://github.com/centralnic/php-epp) - PHP EPP implementation by CentralNic
-- EPP Self Test Tool: [GitHub](https://github.com/icann/rst-epp-selftest-tool) - Testing tool by ICANN
-- Net::EPP: [GitHub](https://github.com/gbxyz/perl-net-epp) - Perl EPP client by Gavin Brown
-- Python EPP Client: [GitHub](https://github.com/cloudregistry/python-epp-client) - Python implementation by Cloud Registry
-- Nomulus: [Website](https://nomulus.dev) | [GitHub](https://github.com/google/nomulus) - TLD operations platform by Google
+- CentralNic PHP-EPP | [github.com/centralnic/php-epp](https://github.com/centralnic/php-epp) | PHP EPP implementation | CentralNic | 2014-2023
+- EPP Self Test Tool | [github.com/icann/rst-epp-selftest-tool](https://github.com/icann/rst-epp-selftest-tool) | Testing tool | ICANN | 2019-2023
+- Net::EPP | [github.com/gbxyz/perl-net-epp](https://github.com/gbxyz/perl-net-epp) | Perl EPP client | Gavin Brown | 2011-2023
+- Python EPP Client | [github.com/cloudregistry/python-epp-client](https://github.com/cloudregistry/python-epp-client) | Python EPP client | Cloud Registry | 2013-2023
+- node-epp | [github.com/carystanley/node-epp](https://github.com/carystanley/node-epp) | Node.js EPP client | Cary Stanley | 2014-2023
+- epp-go | [github.com/domainr/epp](https://github.com/domainr/epp) | Go EPP client | Domainr | 2019-2024
+- Nomulus | [github.com/google/nomulus](https://github.com/google/nomulus) | TLD operations platform | Google | 2016-2024
 
 ## WHOIS/RDAP Tools
-- RDAP Reference Server: [GitHub](https://github.com/NICMx/rdap-server) - Reference implementation by NIC Mexico
-- phpWhois: [GitHub](https://github.com/phpWhois/phpWhois) - PHP WHOIS library by phpWhois Community
-- whois-parser-go: [GitHub](https://github.com/likexian/whois-parser) - Go WHOIS parser by Li Kexian
-- whois3: [GitHub](https://github.com/DannyCork/python-whois) - Python WHOIS library by Danny Cork
-- Who-Dat: [GitHub](https://github.com/Lissy93/who-dat) - No-CORS WHOIS/RDAP API by Alicia Sykes
-- OpenRDAP: [GitHub](https://github.com/openrdap/openrdap) - RDAP client by OpenRDAP Contributors
-- RDAP Conformance Tool: [GitHub](https://github.com/icann/rdap-conformance-tool) - Verification tool by ICANN
+- RDAP Reference Server | [github.com/NICMx/rdap-server](https://github.com/NICMx/rdap-server) | Reference implementation | NIC Mexico | 2015-2024
+- phpWhois | [github.com/phpWhois/phpWhois](https://github.com/phpWhois/phpWhois) | PHP WHOIS library | phpWhois Community | 2009-2023
+- whois-parser-go | [github.com/likexian/whois-parser](https://github.com/likexian/whois-parser) | Go WHOIS parser | Li Kexian | 2015-2024
+- whois3 | [github.com/DannyCork/python-whois](https://github.com/DannyCork/python-whois) | Python WHOIS library | Danny Cork | 2011-2023
+- Who-Dat | [github.com/Lissy93/who-dat](https://github.com/Lissy93/who-dat) | No-CORS WHOIS/RDAP API | Alicia Sykes | 2021-2024
+- OpenRDAP | [github.com/openrdap/openrdap](https://github.com/openrdap/openrdap) | RDAP client | OpenRDAP Contributors | 2015-2024
+- RDAP Conformance Tool | [github.com/icann/rdap-conformance-tool](https://github.com/icann/rdap-conformance-tool) | Verification tool | ICANN | 2019-2024
+- whois-rust | [github.com/jgulotta/whois-rust](https://github.com/jgulotta/whois-rust) | Rust WHOIS client | John Gulotta | 2018-2023
+- tokio-whois | [github.com/reu/tokio-whois](https://github.com/reu/tokio-whois) | Async WHOIS client | Rodrigo Navarro | 2020-2023
+- rdap-client-rs | [github.com/squareborg/rdap-client-rs](https://github.com/squareborg/rdap-client-rs) | RDAP client in Rust | Squareborg | 2021-2023
+- whois-go | [github.com/likexian/whois-go](https://github.com/likexian/whois-go) | Go WHOIS client | Li Kexian | 2014-2024
+- whoiser | [github.com/LayeredStudio/whoiser](https://github.com/LayeredStudio/whoiser) | Modern WHOIS client | Layered | 2020-2024
+- registry-rdap-server | [github.com/registreerdomein/registry-rdap-server](https://github.com/registreerdomein/registry-rdap-server) | Production RDAP server | SIDN Labs | 2019-2024
+- RDAP Bootstrap Server | [github.com/ARIN/rdap-bootstrap-server](https://github.com/ARIN/rdap-bootstrap-server) | Bootstrap service | ARIN | 2017-2024
 
 ## Domain Management
-- opensrs-python: [GitHub](https://github.com/opensrs-py/opensrs) - OpenSRS API client by OpenSRS Community
-- Enom API Client: [GitHub](https://github.com/markcarver/enom-api) - Enom API client by Mark Carver
+- opensrs-python | [github.com/opensrs-py/opensrs](https://github.com/opensrs-py/opensrs) | OpenSRS API client | OpenSRS Community | 2012-2023
+- Enom API Client | [github.com/markcarver/enom-api](https://github.com/markcarver/enom-api) | Enom API client | Mark Carver | 2014-2023
 
 ## DNS Security
-- DNSCrypt: [GitHub](https://github.com/DNSCrypt/dnscrypt-proxy) - DNS encryption tool by Frank Denis
-- DNSSec-Trigger: [GitHub](https://github.com/NLnetLabs/dnssec-trigger) - DNSSEC automation by NLnet Labs
-
-## DNS Analysis & Debugging
-- DNSViz: [Website](https://dnsviz.net) | [GitHub](https://github.com/dnsviz/dnsviz) - DNS visualization tool by Casey Deccio
-- dnstracer: [Website](http://www.mavetju.org/unix/dnstracer.php) - DNS path tracer by Debian Community
-- dnsping: [GitHub](https://github.com/klepner/dnsping) - DNS latency measurement by klepner
-- DNSCheck: [Website](https://dnscheck.iis.se) - Zone testing tool by IIS.se
-- BIND-Utils: [GitLab](https://gitlab.isc.org/isc-projects/bind9) - Standard debugging toolkit (dig, nslookup, host) by ISC
-- Wireshark: [GitLab](https://gitlab.com/wireshark/wireshark) - Network analyzer with DNS features by Wireshark Foundation
-- Drill: [GitHub](https://github.com/NLnetLabs/ldns) - DNS query tool by NLnet Labs
+- DNSCrypt | [github.com/DNSCrypt/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) | DNS encryption tool | Frank Denis | 2012-2024
+- DNSSec-Trigger | [github.com/NLnetLabs/dnssec-trigger](https://github.com/NLnetLabs/dnssec-trigger) | DNSSEC automation | NLnet Labs | 2011-2024
+- dnssector | [github.com/nitefood/dnssector](https://github.com/nitefood/dnssector) | DNS Security testing tool | nitefood | 2020-2024
+- dnsproxy | [github.com/AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) | DNS proxy with DoH/DoT/DoQ | AdGuard | 2018-2024
 
 ## DNS Libraries
-- dnspython: [Website](https://www.dnspython.org) | [GitHub](https://github.com/rthalley/dnspython) - Python DNS toolkit by Bob Halley
-- go-dns: [GitHub](https://github.com/miekg/dns) - Go DNS library by Miek Gieben
-- Node.js DNS: [GitHub](https://github.com/nodejs/node) - Built-in DNS module by Node.js Foundation
-- ldns: [Website](https://www.nlnetlabs.nl/projects/ldns/) | [GitHub](https://github.com/NLnetLabs/ldns) - DNS/DNSSEC library by NLnet Labs
-- libunbound: [Website](https://nlnetlabs.nl/projects/unbound/about/) | [GitHub](https://github.com/NLnetLabs/unbound) - DNS resolver library by NLnet Labs
-- dns-sd.js: [GitHub](https://github.com/watson/dns-sd) - DNS-SD library for Node.js by Thomas Watson
-- c-ares: [Website](https://c-ares.org/) | [GitHub](https://github.com/c-ares/c-ares) - Async DNS library by c-ares team
-- dns2: [GitHub](https://github.com/song940/dns2) - Pure JavaScript DNS implementation by Lsong
+- dnspython | [github.com/rthalley/dnspython](https://github.com/rthalley/dnspython) | Python DNS toolkit | Bob Halley | 2003-2024
+- go-dns | [github.com/miekg/dns](https://github.com/miekg/dns) | Go DNS library | Miek Gieben | 2010-2024
+- Node.js DNS | [github.com/nodejs/node](https://github.com/nodejs/node) | Built-in DNS module | Node.js Foundation | 2009-2024
+- ldns | [github.com/NLnetLabs/ldns](https://github.com/NLnetLabs/ldns) | DNS/DNSSEC library | NLnet Labs | 2005-2024
+- libunbound | [github.com/NLnetLabs/unbound](https://github.com/NLnetLabs/unbound) | DNS resolver library | NLnet Labs | 2007-2024
+- dns-sd.js | [github.com/watson/dns-sd](https://github.com/watson/dns-sd) | DNS-SD library for Node.js | Thomas Watson | 2015-2023
+- c-ares | [github.com/c-ares/c-ares](https://github.com/c-ares/c-ares) | Async DNS library | c-ares team | 2004-2024
+- dns2 | [github.com/song940/dns2](https://github.com/song940/dns2) | Pure JavaScript DNS implementation | Lsong | 2017-2024
+- dns-parser | [github.com/EmilHernvall/dns-parser](https://github.com/EmilHernvall/dns-parser) | Rust DNS parser | Emil Hernvall | 2015-2022
+- node-dns | [github.com/song940/node-dns](https://github.com/song940/node-dns) | DNS server/client implementation | Lsong | 2011-2024
+- native-dns-packet | [github.com/tjfontaine/native-dns-packet](https://github.com/tjfontaine/native-dns-packet) | DNS packet parser/serializer | Timothy J Fontaine | 2013-2022
 
-## DNS Monitoring & Analysis
-- DNSPerf: [GitHub](https://github.com/DNS-OARC/dnsperf) - Performance testing tool by DNS-OARC
-- Zonemaster: [GitHub](https://github.com/zonemaster/zonemaster) - Zone testing suite by IIS and AFNIC
-- DNSMap: [GitHub](https://github.com/makefu/dnsmap) - Subdomain bruteforcing by Felix Richter
-- Massdns: [GitHub](https://github.com/blechschmidt/massdns) - Bulk DNS resolver by B. Blechschmidt
-- DNSTap: [GitHub](https://github.com/dnstap/dnstap) - DNS logging format by Robert Edmonds
-- RIPE Atlas: [Website](https://atlas.ripe.net/) - Global DNS measurement network by RIPE NCC
+## DNS Analysis & Debugging
+- DNSViz | [github.com/dnsviz/dnsviz](https://github.com/dnsviz/dnsviz) | DNS visualization tool | Casey Deccio | 2013-2024
+- dnstracer | [mavetju.org/unix/dnstracer.php](http://www.mavetju.org/unix/dnstracer.php) | DNS path tracer | Debian Community | 2001-2022
+- dnsping | [github.com/klepner/dnsping](https://github.com/klepner/dnsping) | DNS latency measurement | klepner | 2016-2023
+- DNSCheck | [dnscheck.iis.se](https://dnscheck.iis.se) | Zone testing tool | IIS.se | 2007-2024
+- BIND-Utils | [gitlab.isc.org/isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9) | Standard debugging toolkit | ISC | 1987-2024
+- Wireshark | [gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark) | Network analyzer | Wireshark Foundation | 1998-2024
+- Drill | [github.com/NLnetLabs/ldns](https://github.com/NLnetLabs/ldns) | DNS query tool | NLnet Labs | 2005-2024
+- DNSPerf | [github.com/DNS-OARC/dnsperf](https://github.com/DNS-OARC/dnsperf) | Performance testing tool | DNS-OARC | 2019-2024
+- Zonemaster | [github.com/zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | Zone testing suite | IIS and AFNIC | 2014-2024
+- DNSMap | [github.com/makefu/dnsmap](https://github.com/makefu/dnsmap) | Subdomain bruteforcing | Felix Richter | 2006-2023
+- Massdns | [github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns) | Bulk DNS resolver | B. Blechschmidt | 2016-2024
+- DNSTap | [github.com/dnstap/dnstap](https://github.com/dnstap/dnstap) | DNS logging format | Robert Edmonds | 2014-2024
+- DNS Query Log | [github.com/dnsqlog/dnsqlog](https://github.com/dnsqlog/dnsqlog) | Query logging tool | DNS Query Log team | 2018-2024
+- RIPE Atlas | [atlas.ripe.net](https://atlas.ripe.net/) | Global DNS measurement network | RIPE NCC | 2010-2024
+- octodns | [github.com/github/octodns](https://github.com/github/octodns) | DNS management tool | GitHub | 2017-2024
+- zdns | [github.com/zmap/zdns](https://github.com/zmap/zdns) | Fast DNS lookup tool | ZMap Team | 2016-2024
 
 # DNS Protocol RFCs and Standards Track Documents
 
-## Core DNS Protocol RFCs
-- [RFC 1034](https://datatracker.ietf.org/doc/rfc1034/): Domain Concepts and Facilities (1987) - Standard | P. Mockapetris
-- [RFC 1035](https://datatracker.ietf.org/doc/rfc1035/): Domain Implementation and Specification (1987) - Standard | P. Mockapetris
-- [RFC 2181](https://datatracker.ietf.org/doc/rfc2181/): Clarifications to the DNS Specification (1997) - Standard | R. Elz, R. Bush
-- [RFC 2308](https://datatracker.ietf.org/doc/rfc2308/): Negative Caching of DNS Queries (1998) - Standard | M. Andrews
-- [RFC 3596](https://datatracker.ietf.org/doc/rfc3596/): DNS Extensions to Support IP Version 6 (2003) - Standard | S. Thomson, C. Huitema, V. Ksinant, M. Souissi
+## Core Protocol RFCs
+- RFC 1034 | [datatracker.ietf.org/doc/rfc1034](https://datatracker.ietf.org/doc/rfc1034/) | Domain Concepts and Facilities | P. Mockapetris | Internet Standard | 1987
+- RFC 1035 | [datatracker.ietf.org/doc/rfc1035](https://datatracker.ietf.org/doc/rfc1035/) | Domain Implementation and Specification | P. Mockapetris | Internet Standard | 1987
+- RFC 2181 | [datatracker.ietf.org/doc/rfc2181](https://datatracker.ietf.org/doc/rfc2181/) | DNS Specification Clarifications | R. Elz, R. Bush | Internet Standard | 1997
+- RFC 2308 | [datatracker.ietf.org/doc/rfc2308](https://datatracker.ietf.org/doc/rfc2308/) | Negative Caching of DNS Queries | M. Andrews | Internet Standard | 1998
+- RFC 3596 | [datatracker.ietf.org/doc/rfc3596](https://datatracker.ietf.org/doc/rfc3596/) | DNS Extensions for IPv6 | S. Thomson et al. | Internet Standard | 2003
 
-## DNS Security Extensions (DNSSEC)
-- [RFC 4033](https://datatracker.ietf.org/doc/rfc4033/): DNS Security Introduction and Requirements (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- [RFC 4034](https://datatracker.ietf.org/doc/rfc4034/): Resource Records for the DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- [RFC 4035](https://datatracker.ietf.org/doc/rfc4035/): Protocol Modifications for DNS Security Extensions (2005) - Standard | R. Arends, R. Austein, M. Larson, D. Massey, S. Rose
-- [RFC 5155](https://datatracker.ietf.org/doc/rfc5155/): DNS Security (DNSSEC) Hashed Authenticated Denial of Existence (2008) - Standard | B. Laurie, G. Sisson, R. Arends, D. Blacka
-- [RFC 6840](https://datatracker.ietf.org/doc/rfc6840/): Clarifications and Implementation Notes for DNS Security (2013) - Standard | S. Weiler, D. Blacka
+## Security Extensions (DNSSEC)
+- RFC 4033 | [datatracker.ietf.org/doc/rfc4033](https://datatracker.ietf.org/doc/rfc4033/) | DNS Security Introduction | R. Arends et al. | Internet Standard | 2005
+- RFC 4034 | [datatracker.ietf.org/doc/rfc4034](https://datatracker.ietf.org/doc/rfc4034/) | Resource Records for DNSSEC | R. Arends et al. | Internet Standard | 2005
+- RFC 4035 | [datatracker.ietf.org/doc/rfc4035](https://datatracker.ietf.org/doc/rfc4035/) | Protocol Modifications for DNSSEC | R. Arends et al. | Internet Standard | 2005
+- RFC 5155 | [datatracker.ietf.org/doc/rfc5155](https://datatracker.ietf.org/doc/rfc5155/) | DNSSEC Hashed Authenticated Denial | B. Laurie et al. | Internet Standard | 2008
+- RFC 6840 | [datatracker.ietf.org/doc/rfc6840](https://datatracker.ietf.org/doc/rfc6840/) | DNSSEC Implementation Notes | S. Weiler, D. Blacka | Internet Standard | 2013
 
-## DNS Transport and Operations
-- [RFC 2671](https://datatracker.ietf.org/doc/rfc2671/): Extension Mechanisms for DNS (EDNS0) (1999) - Standard | P. Vixie
-- [RFC 5936](https://datatracker.ietf.org/doc/rfc5936/): DNS Zone Transfer Protocol (AXFR) (2010) - Standard | E. Lewis, A. Hoenes
-- [RFC 7766](https://datatracker.ietf.org/doc/rfc7766/): DNS Transport over TCP - Implementation Requirements (2016) - Standard | J. Dickinson, S. Dickinson, R. Bellis, A. Mankin, D. Wessels
-- [RFC 8484](https://datatracker.ietf.org/doc/rfc8484/): DNS Queries over HTTPS (DoH) (2018) - Standard | P. Hoffman, P. McManus
-- [RFC 7858](https://datatracker.ietf.org/doc/rfc7858/): Specification for DNS over Transport Layer Security (TLS) (2016) - Standard | Z. Hu, L. Zhu, J. Heidemann, A. Mankin, D. Wessels, P. Hoffman
+## Transport and Operations
+- RFC 2671 | [datatracker.ietf.org/doc/rfc2671](https://datatracker.ietf.org/doc/rfc2671/) | Extension Mechanisms (EDNS0) | P. Vixie | Internet Standard | 1999
+- RFC 5936 | [datatracker.ietf.org/doc/rfc5936](https://datatracker.ietf.org/doc/rfc5936/) | DNS Zone Transfer Protocol | E. Lewis, A. Hoenes | Internet Standard | 2010
+- RFC 7766 | [datatracker.ietf.org/doc/rfc7766](https://datatracker.ietf.org/doc/rfc7766/) | DNS Transport over TCP | J. Dickinson et al. | Internet Standard | 2016
+- RFC 8484 | [datatracker.ietf.org/doc/rfc8484](https://datatracker.ietf.org/doc/rfc8484/) | DNS Queries over HTTPS (DoH) | P. Hoffman, P. McManus | Internet Standard | 2018
+- RFC 7858 | [datatracker.ietf.org/doc/rfc7858](https://datatracker.ietf.org/doc/rfc7858/) | DNS over TLS | Z. Hu et al. | Internet Standard | 2016
+
+## EPP Related RFCs
+- RFC 5730 | [datatracker.ietf.org/doc/rfc5730](https://datatracker.ietf.org/doc/rfc5730/) | EPP Core Protocol | S. Hollenbeck | Internet Standard | 2009
+- RFC 5731 | [datatracker.ietf.org/doc/rfc5731](https://datatracker.ietf.org/doc/rfc5731/) | EPP Domain Name Mapping | S. Hollenbeck | Internet Standard | 2009
+- RFC 5732 | [datatracker.ietf.org/doc/rfc5732](https://datatracker.ietf.org/doc/rfc5732/) | EPP Host Mapping | S. Hollenbeck | Internet Standard | 2009
+- RFC 5733 | [datatracker.ietf.org/doc/rfc5733](https://datatracker.ietf.org/doc/rfc5733/) | EPP Contact Mapping | S. Hollenbeck | Internet Standard | 2009
+- RFC 5734 | [datatracker.ietf.org/doc/rfc5734](https://datatracker.ietf.org/doc/rfc5734/) | EPP Transport over TCP | S. Hollenbeck | Internet Standard | 2009
+
+## WHOIS/RDAP Related RFCs
+- RFC 3912 | [datatracker.ietf.org/doc/rfc3912](https://datatracker.ietf.org/doc/rfc3912/) | WHOIS Protocol Specification | L. Daigle | Internet Standard | 2004
+- RFC 7482 | [datatracker.ietf.org/doc/rfc7482](https://datatracker.ietf.org/doc/rfc7482/) | RDAP Query Format | M. Blanchet | Internet Standard | 2015
+- RFC 7483 | [datatracker.ietf.org/doc/rfc7483](https://datatracker.ietf.org/doc/rfc7483/) | RDAP JSON Responses | M. Blanchet | Internet Standard | 2015
+- RFC 7484 | [datatracker.ietf.org/doc/rfc7484](https://datatracker.ietf.org/doc/rfc7484/) | Finding RDAP Servers | M. Blanchet | Internet Standard | 2015
+- RFC 8056 | [datatracker.ietf.org/doc/rfc8056](https://datatracker.ietf.org/doc/rfc8056/) | RDAP Object Tagging | S. Hollenbeck | Internet Standard | 2017
 
 ## Dynamic Updates and Notifications
-- [RFC 2136](https://datatracker.ietf.org/doc/rfc2136/): Dynamic Updates in the Domain Name System (DNS UPDATE) (1997) - Standard | P. Vixie, S. Thomson, Y. Rekhter, J. Bound
-- [RFC 1996](https://datatracker.ietf.org/doc/rfc1996/): A Mechanism for Prompt Notification of Zone Changes (DNS NOTIFY) (1996) - Standard | P. Vixie
-- [RFC 3007](https://datatracker.ietf.org/doc/rfc3007/): Secure Domain Name System (DNS) Dynamic Update (2000) - Standard | B. Wellington
+- RFC 2136 | [datatracker.ietf.org/doc/rfc2136](https://datatracker.ietf.org/doc/rfc2136/) | Dynamic Updates in DNS | P. Vixie et al. | Internet Standard | 1997
+- RFC 1996 | [datatracker.ietf.org/doc/rfc1996](https://datatracker.ietf.org/doc/rfc1996/) | DNS NOTIFY | P. Vixie | Internet Standard | 1996
+- RFC 3007 | [datatracker.ietf.org/doc/rfc3007](https://datatracker.ietf.org/doc/rfc3007/) | Secure Dynamic Update | B. Wellington | Internet Standard | 2000
 
-## DNS Resource Records
-- [RFC 3597](https://datatracker.ietf.org/doc/rfc3597/): Handling of Unknown DNS Resource Record (RR) Types (2003) - Standard | A. Gustafsson
-- [RFC 4592](https://datatracker.ietf.org/doc/rfc4592/): The Role of Wildcards in the Domain Name System (2006) - Standard | E. Lewis
-- [RFC 6891](https://datatracker.ietf.org/doc/rfc6891/): Extension Mechanisms for DNS (EDNS(0)) (2013) - Standard | J. Damas, M. Graff, P. Vixie
-
-## Internationalized Domain Names (IDN)
-- [RFC 5890](https://datatracker.ietf.org/doc/rfc5890/): Internationalized Domain Names for Applications (IDNA): Definitions and Document Framework (2010) - Standard | J. Klensin
-- [RFC 5891](https://datatracker.ietf.org/doc/rfc5891/): Internationalized Domain Names in Applications (IDNA): Protocol (2010) - Standard | J. Klensin
-- [RFC 5892](https://datatracker.ietf.org/doc/rfc5892/): The Unicode Code Points and IDNA (2010) - Standard | P. Faltstrom
-
-## DNS Operational Standards
-- [RFC 2870](https://datatracker.ietf.org/doc/rfc2870/): Root Name Server Operational Requirements (2000) - Best Current Practice | R. Bush, D. Karrenberg, M. Kosters, R. Plzak
-- [RFC 6781](https://datatracker.ietf.org/doc/rfc6781/): DNSSEC Operational Practices (2012) - Best Current Practice | O. Kolkman, W. Mekking, R. Gieben
-- [RFC 7720](https://datatracker.ietf.org/doc/rfc7720/): DNS Root Name Service Protocol and Deployment Requirements (2015) - Best Current Practice | M. Blanchet, L-J. Liman
-
-## Modern DNS Extensions and Features
-- [RFC 8499](https://datatracker.ietf.org/doc/rfc8499/): DNS Terminology (2019) - Informational | P. Hoffman, K. Sullivan, J. Klensin
-- [RFC 7871](https://datatracker.ietf.org/doc/rfc7871/): Client Subnet in DNS Queries (2016) - Informational | C. Contavalli, W. van der Gaast, D. Lawrence, W. Kumari
-- [RFC 8767](https://datatracker.ietf.org/doc/rfc8767/): Serving Stale Data to Improve DNS Resiliency (2020) - Standard | D. Lawrence, W. Kumari, P. Sood
+## Resource Records
+- RFC 3597 | [datatracker.ietf.org/doc/rfc3597](https://datatracker.ietf.org/doc/rfc3597/) | Handling Unknown RR Types | A. Gustafsson | Internet Standard | 2003
+- RFC 4592 | [datatracker.ietf.org/doc/rfc4592](https://datatracker.ietf.org/doc/rfc4592/) | The Role of Wildcards | E. Lewis | Internet Standard | 2006
+- RFC 6891 | [datatracker.ietf.org/doc/rfc6891](https://datatracker.ietf.org/doc/rfc6891/) | EDNS(0) Extensions | J. Damas et al. | Internet Standard | 2013
 
 ## Privacy and Security
-- [RFC 8932](https://datatracker.ietf.org/doc/rfc8932/): Recommendations for DNS Privacy Service Operators (2020) - Best Current Practice | S. Dickinson, B. Overeinder, R. van Rijswijk-Deij, A. Mankin
-- [RFC 9076](https://datatracker.ietf.org/doc/rfc9076/): DNS Privacy Considerations (2021) - Informational | T. Wicinski
-- [RFC 8198](https://datatracker.ietf.org/doc/rfc8198/): Aggressive Use of DNSSEC-Validated Cache (2017) - Standard | K. Fujiwara, A. Kato, W. Kumari
+- RFC 8932 | [datatracker.ietf.org/doc/rfc8932](https://datatracker.ietf.org/doc/rfc8932/) | DNS Privacy Service Recommendations | S. Dickinson et al. | Best Current Practice | 2020
+- RFC 9076 | [datatracker.ietf.org/doc/rfc9076](https://datatracker.ietf.org/doc/rfc9076/) | DNS Privacy Considerations | T. Wicinski | Informational | 2021
+- RFC 8198 | [datatracker.ietf.org/doc/rfc8198](https://datatracker.ietf.org/doc/rfc8198/) | Aggressive DNSSEC Cache | K. Fujiwara et al. | Internet Standard | 2017
 
-## Notes:
-- All links point to IETF datatracker which provides additional metadata and implementation status
-- Track types include: Standard Track, Best Current Practice (BCP), Informational, and Experimental
-- Dates indicate publication year
-- Authors listed are primary contributors
+## Modern Extensions and Features
+- RFC 8499 | [datatracker.ietf.org/doc/rfc8499](https://datatracker.ietf.org/doc/rfc8499/) | DNS Terminology | P. Hoffman et al. | Informational | 2019
+- RFC 7871 | [datatracker.ietf.org/doc/rfc7871](https://datatracker.ietf.org/doc/rfc7871/) | Client Subnet in DNS Queries | C. Contavalli et al. | Informational | 2016
+- RFC 8767 | [datatracker.ietf.org/doc/rfc8767](https://datatracker.ietf.org/doc/rfc8767/) | Serving Stale Data | D. Lawrence et al. | Internet Standard | 2020
