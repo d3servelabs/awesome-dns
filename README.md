@@ -1,4 +1,4 @@
-# Awesome-SDN: Complete DNS, EPP, WHOIS & RDAP Tools List
+# Awesome-DNS: Complete DNS, EPP, WHOIS & RDAP Tools List
 
 ## NameServers
 - BIND9 | [gitlab.isc.org/isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9) | Complete DNS protocol implementation | ISC | 1987-2024
