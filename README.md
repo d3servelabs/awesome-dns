@@ -1,5 +1,6 @@
 # Awesome-DNS: Complete DNS, EPP, WHOIS & RDAP Tools List
 
+Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain and contributors. Pull Request is welcomed!
 ## NameServers
 - BIND9 | [gitlab.isc.org/isc-projects/bind9](https://gitlab.isc.org/isc-projects/bind9) | Complete DNS protocol implementation | ISC | 1987-2024
 - CoreDNS | [github.com/coredns/coredns](https://github.com/coredns/coredns) | Production-grade DNS server with plugins | CNCF | 2016-2024
