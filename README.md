@@ -38,6 +38,7 @@ Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain an
 - registry-rdap-server | [github.com/registreerdomein/registry-rdap-server](https://github.com/registreerdomein/registry-rdap-server) | Production RDAP server | SIDN Labs | 2019-2024
 - RDAP Bootstrap Server | [github.com/ARIN/rdap-bootstrap-server](https://github.com/ARIN/rdap-bootstrap-server) | Bootstrap service | ARIN | 2017-2024
 - DomScan | [domscan.net](https://domscan.net) | Domain availability, DNS, WHOIS/RDAP, SSL, subdomains, valuation & brand protection API + MCP server | DomScan | 2024-2026
+- Zero Dollar Domains | [arynjennen1989-stack.github.io](https://arynjennen1989-stack.github.io/) | Live RDAP Hunter for unused cheap TLD names plus a catalog of still-free domain programs | Aryn Jennen | 2026
 
 ## Domain Management
 - opensrs-python | [github.com/opensrs-py/opensrs](https://github.com/opensrs-py/opensrs) | OpenSRS API client | OpenSRS Community | 2012-2023
