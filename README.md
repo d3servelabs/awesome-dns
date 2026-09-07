@@ -38,6 +38,7 @@ Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain an
 - registry-rdap-server | [github.com/registreerdomein/registry-rdap-server](https://github.com/registreerdomein/registry-rdap-server) | Production RDAP server | SIDN Labs | 2019-2024
 - RDAP Bootstrap Server | [github.com/ARIN/rdap-bootstrap-server](https://github.com/ARIN/rdap-bootstrap-server) | Bootstrap service | ARIN | 2017-2024
 - DomScan | [domscan.net](https://domscan.net) | Domain availability, DNS, WHOIS/RDAP, SSL, subdomains, valuation & brand protection API + MCP server | DomScan | 2024-2026
+- Vacato | [vacato.io](https://vacato.io) | RDAP domain availability watchlist with Telegram/email/Slack alerts; free 10 domains (not a drop-catcher) | Vacato | 2025-2026
 
 ## Domain Management
 - opensrs-python | [github.com/opensrs-py/opensrs](https://github.com/opensrs-py/opensrs) | OpenSRS API client | OpenSRS Community | 2012-2023
