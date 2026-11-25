@@ -81,6 +81,7 @@ Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain an
 - zdns | [github.com/zmap/zdns](https://github.com/zmap/zdns) | Fast DNS lookup tool | ZMap Team | 2016-2024
 - IntoDNS.ai | [intodns.ai](https://intodns.ai) | AI-powered DNS & email security scanner | Cobytes | 2025-2026
 - Valla DNS | [valladns.com](https://valladns.com) | Free web DNS/WHOIS/SSL/email-health checker suite | Valla Hub | 2026
+- Postmaster of Puppets | [github.com/randyesperben/postmaster-of-puppets](https://github.com/randyesperben/postmaster-of-puppets) | Email authentication checker for a domain (MX, SPF, DKIM, DMARC) with the records that fix it | Randy Esperben | 2026
 
 # DNS Protocol RFCs and Standards Track Documents
 
