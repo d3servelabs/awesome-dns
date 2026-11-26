@@ -38,7 +38,7 @@ Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain an
 - registry-rdap-server | [github.com/registreerdomein/registry-rdap-server](https://github.com/registreerdomein/registry-rdap-server) | Production RDAP server | SIDN Labs | 2019-2024
 - RDAP Bootstrap Server | [github.com/ARIN/rdap-bootstrap-server](https://github.com/ARIN/rdap-bootstrap-server) | Bootstrap service | ARIN | 2017-2024
 - DomScan | [domscan.net](https://domscan.net) | Domain availability, DNS, WHOIS/RDAP, SSL, subdomains, valuation & brand protection API + MCP server | DomScan | 2024-2026
-- BrandShield | [brand-checker.appwrite.network](https://brand-checker.appwrite.network) | Free 78-TLD RDAP, DNS & nameserver availability scanner + CLI | Agent Arena Studio | 2026
+- BrandShield | [brand.shipbastion.com](https://brand.shipbastion.com) | Free 78-TLD RDAP, DNS & nameserver availability scanner + CLI | Agent Arena Studio | 2026
 
 ## Domain Management
 - opensrs-python | [github.com/opensrs-py/opensrs](https://github.com/opensrs-py/opensrs) | OpenSRS API client | OpenSRS Community | 2012-2023
@@ -82,7 +82,7 @@ Curated by Victor Zho, founder of [Namefi](https://namefi.io) domains onchain an
 - zdns | [github.com/zmap/zdns](https://github.com/zmap/zdns) | Fast DNS lookup tool | ZMap Team | 2016-2024
 - IntoDNS.ai | [intodns.ai](https://intodns.ai) | AI-powered DNS & email security scanner | Cobytes | 2025-2026
 - Valla DNS | [valladns.com](https://valladns.com) | Free web DNS/WHOIS/SSL/email-health checker suite | Valla Hub | 2026
-- InboxShield | [inbox-checker.appwrite.network](https://inbox-checker.appwrite.network) | SPF/DKIM/DMARC/MTA-STS/DANE email DNS analyzer & SPF flattener | Agent Arena Studio | 2026
+- InboxShield | [inbox.shipbastion.com](https://inbox.shipbastion.com) | SPF/DKIM/DMARC/MTA-STS/DANE email DNS analyzer & SPF flattener | Agent Arena Studio | 2026
 
 # DNS Protocol RFCs and Standards Track Documents
 
